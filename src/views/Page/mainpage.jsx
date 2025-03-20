@@ -23,7 +23,7 @@ function Mainpage(){
   
           })
         } 
-      }
+    }
     function selection(select){
         setisOpen(true)
         setcurrentOpen(select)
