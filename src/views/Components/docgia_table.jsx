@@ -129,10 +129,11 @@ function Docgia(){
 
     return (
         <>
-            <div className='number-page'>
-                <span style={{fontWeight:"bold"}}>-Trang {currentPage}-</span>
-            </div>
+           
             <div id="table_container">
+                <div className='number-page'>
+                    <span style={{fontWeight:"bold"}}>-Trang {currentPage}-</span>
+                </div>
                 <table className="book_table">
                     <thead>
                         <tr>
@@ -163,8 +164,10 @@ function Docgia(){
                     
                     </tbody>
                 </table>
+                <Pagination totalRows={result.length} rowsperPage={12} setcurrentPage={setcurrentPage}/>
             </div>
-            <Pagination totalRows={result.length} rowsperPage={12} setcurrentPage={setcurrentPage}/>
+            
+            
         </>
     )
 }

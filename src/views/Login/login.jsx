@@ -6,7 +6,7 @@ function Login(){
       navigate('/main');
    }
    return (
-      <>
+      <div className="login_container">
          <p className="title">THƯ VIỆN</p>
          <form className="login_form" onSubmit={handle}>
             <p className="login_label">Đăng nhập</p>
@@ -22,7 +22,7 @@ function Login(){
                <button className="login_button" type="submit">Đăng nhập</button>
             </div>
          </form>
-      </>
+      </div>
    )
 }
-export default Login
+export default Login;

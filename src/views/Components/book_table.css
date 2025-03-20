@@ -1,8 +1,10 @@
 #table_container{
-    width: 1100px;
-    margin-left:445px;
-    margin-top:10%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:7%;
+    display:flex;
+    flex-direction: column;
 }
 .searchbar{
     width: 400px;
@@ -12,9 +14,8 @@
     border-radius: 28px;
     background-color: #f1f1f1;
     height: 10px;
-    position: absolute;
-    margin-top: 60px;
-    margin-left:40%;
+    margin-left:auto;
+    margin-right: auto;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .search-input{
@@ -27,22 +28,23 @@
     flex:1;
 }
 .book_table{
+    width:1150px;
     margin: 0px auto;
     border-collapse: collapse;
     font-size:15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .number-page{
-    position: absolute;
     width: 90px;
     display: flex;
     justify-content: center;
-    margin-left: 24%;
-    margin-top:160px;
+    margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     border-style: solid;
     border-color:black;
     border-width:2px;
     border-radius: 10px;
+    margin-left:44px;
 }
 .book_table tr th{
     text-align: left;

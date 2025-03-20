@@ -20,9 +20,34 @@
     left:440px;
     
 }
+.table_muonsach{
+    width:930px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    font-size:15px;
+}
+.table_muonsach tr th{
+    text-align: left;
+    background-color: rgb(245, 200, 164);
+    color:#383838;
+    font-weight: bold;
+    padding: 0px 0px 0px 10px;
+}
+.table_muonsach tr td{
+    background-color: #ffffff;
+    padding: 10px 0px 10px 10px;
+}
+
+.table_muonsach tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.table_muonsach tbody tr:last-of-type{
+    border-bottom: 2px solid #4e2515;
+}
 .tableContainer{
     height: 270px;
-
+    
     overflow: scroll;
     overflow-x: auto;
     overflow-y: auto;
@@ -32,7 +57,7 @@ Table thead{
     top: 0px;
     margin: 0 0 0 0;
 }
-.book_table tbody tr td input{
+.table_muonsach tbody tr td input{
     border-radius:0px;
     border-width: 0px 0px 1px 0px;
 }

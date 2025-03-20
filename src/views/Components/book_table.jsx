@@ -55,20 +55,20 @@ function Book_table(){
         
     ]
     const [currentPage,setcurrentPage]=useState(1)
-    const lastIndex = currentPage*12
-    const firstIndex = lastIndex-12
+    const lastIndex = currentPage*11
+    const firstIndex = lastIndex-11
     const new_result = result.slice(firstIndex,lastIndex)
     return (
         <>
-            <div className='searchbar'>
-                <span className="material-symbols-outlined" style={{cursor:"pointer"}}>search</span>
-                <input className='search-input' type="search" placeholder='Nhập tên sách'/>
-            </div>
-            <div className='number-page'>
-                <span style={{fontWeight:"bold"}}>-Trang {currentPage}-</span>
-            </div>
-            <div id="table_container">
             
+            <div id="table_container">
+                <div className='searchbar'>
+                    <span className="material-symbols-outlined" style={{cursor:"pointer"}}>search</span>
+                    <input className='search-input' type="search" placeholder='Nhập tên sách'/>
+                </div>
+                <div className='number-page'>
+                    <span style={{fontWeight:"bold"}}>-Trang {currentPage}-</span>
+                </div>
                 <table className="book_table">
                     <thead>
                         <tr>

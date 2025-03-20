@@ -133,7 +133,7 @@ function Trasach({hide}){
                 <div className='label_lapthe' style={{width:"150px"}}>Tổng nợ:</div>
                 {tongno}đ
             </div>
-            <table className='book_table'>
+            <table className='table_muonsach' >
                 <thead>
                     <tr>
                         <th style={{width:"50px"}}>STT</th>

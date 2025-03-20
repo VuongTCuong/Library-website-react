@@ -48,7 +48,7 @@ function Bc1(){
             <br />
             <span>Tháng :</span>
             </div>
-            <table className='book_table' style={{marginTop:"10px"}}>
+            <table className='table_muonsach' style={{marginTop:"10px",width:"800px"}}>
                 <thead>
                     <tr>
                         <th style={{width:"50px"}}>STT</th>
@@ -107,7 +107,7 @@ function Bc2(){
             <br />
             <span>Ngày :</span>
             </div>
-            <table className='book_table' style={{marginTop:"10px"}}>
+            <table className='table_muonsach' style={{marginTop:"10px",width:"800px"}}>
                 <thead>
                     <tr>
                         <th style={{width:"50px"}}>STT</th>

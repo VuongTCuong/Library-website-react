@@ -119,7 +119,7 @@ function Muonsach({hide}){
                 <span style={{marginLeft:"20px"}}>{5-currentBooks.length}</span>
             </div>
             <div className='tableContainer'>
-            <table className='book_table'>
+            <table className='table_muonsach' >
                 <thead>
                     <tr>
                         <th style={{width:"30px"}}>STT</th>
